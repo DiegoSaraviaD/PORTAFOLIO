@@ -53,5 +53,16 @@ export const projects = [
     githubUrl: "https://github.com/DiegoSaraviaD/concesionaria",
     liveUrl: "#",
     image: "https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    id: 6,
+    title: "Cafeteria",
+    subtitle: "Menú digital moderno",
+    problem: "Ausencia de una plataforma digital atractiva donde los clientes puedan explorar el menú de la cafetería de forma interactiva y descargar opciones.",
+    solution: "Desarrollo de una Single Page Application (SPA) responsiva con React y React Router que presenta los productos del café y permite la descarga del menú en formato PDF.",
+    technologies: ["React", "React Router", "Vite", "CSS"],
+    githubUrl: "https://github.com/DiegoSaraviaD/Cafeteria-",
+    liveUrl: "#",
+    image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=800"
   }
 ];

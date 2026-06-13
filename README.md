@@ -1,65 +1,109 @@
-# Portafolio - Diego Saravia Duran
+<div align="center">
 
-Este es un portafolio web personal construido con React y Vite, estilizado con Tailwind CSS. Está diseñado para mostrar proyectos de desarrollo frontend, habilidades y ofrecer una forma de contacto, con un diseño oscuro, moderno y premium.
+# 👨‍💻 Portafolio Profesional
 
-## 🚀 Tecnologías
+**Diego Saravia Duran**
 
-- [React](https://reactjs.org/) + [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [React Router DOM](https://reactrouter.com/)
-- [Lucide React](https://lucide.dev/) (Iconos)
+*Un espacio donde la creatividad y el código se encuentran para construir experiencias web modernas y de alto rendimiento.*
 
-## 📦 Instalación Local
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/)
 
-Sigue estos pasos para ejecutar el proyecto en tu máquina local:
+</div>
 
-1. Clona este repositorio o descarga el código fuente.
-2. Abre una terminal en la carpeta del proyecto (`portfolio`).
-3. Instala las dependencias ejecutando:
+---
+
+## 🌟 Sobre el Proyecto
+
+Este es mi portafolio web personal, construido con tecnologías modernas para asegurar un rendimiento óptimo y una experiencia de usuario fluida. El diseño destaca por ser:
+- **Oscuro y Premium:** Colores elegantes y contrastes cuidados para una lectura cómoda.
+- **Responsivo:** Adaptable a dispositivos móviles, tablets y monitores ultrawide.
+- **Dinámico:** Animaciones suaves y transiciones que enriquecen la navegación.
+
+---
+
+## 🚀 Características Principales
+
+- 🎨 **Interfaz Moderna:** Componentes estilizados con Tailwind CSS y Lucide Icons.
+- 📱 **Mobile First:** Diseño adaptativo pensado desde la base para smartphones.
+- ⚡ **Alto Rendimiento:** Empaquetado superrápido gracias a Vite.
+- 📁 **Gestión de Proyectos:** Sección dinámica que muestra proyectos reales, desde aplicaciones bancarias y de gestión, hasta menús digitales y catálogos vehiculares.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Core:** [React 18](https://reactjs.org/) + [Vite](https://vitejs.dev/)
+- **Estilos:** [Tailwind CSS](https://tailwindcss.com/)
+- **Enrutamiento:** [React Router DOM](https://reactrouter.com/)
+- **Iconografía:** [Lucide React](https://lucide.dev/)
+
+---
+
+## 📦 Instalación y Uso Local
+
+¿Quieres probarlo en tu máquina? Sigue estos sencillos pasos:
+
+1. **Clona el repositorio:**
+   ```bash
+   git clone https://github.com/DiegoSaraviaD/PORTAFOLIO.git
+   cd PORTAFOLIO
+   ```
+
+2. **Instala las dependencias:**
    ```bash
    npm install
    ```
-4. Inicia el servidor de desarrollo:
+
+3. **Inicia el servidor de desarrollo:**
    ```bash
    npm run dev
    ```
-5. Abre tu navegador en la URL que aparece en consola (usualmente `http://localhost:5173/`).
 
-## 🌐 Despliegue en Vercel o GitHub Pages
+4. **¡Listo!** Abre tu navegador y navega a `http://localhost:5173/`.
 
-### Para Vercel (Recomendado)
-Vercel ofrece un despliegue muy sencillo para aplicaciones de Vite:
-1. Crea una cuenta en [Vercel](https://vercel.com/).
-2. Sube el código a un repositorio de GitHub.
-3. Importa el repositorio desde el panel de Vercel.
-4. El "Framework Preset" debe ser **Vite**.
-5. Clic en **Deploy**.
+---
 
-### Para GitHub Pages
-Si prefieres GitHub Pages:
-1. Instala el paquete `gh-pages`:
-   ```bash
-   npm install gh-pages --save-dev
-   ```
-2. Modifica el archivo `vite.config.js` y agrega la propiedad `base`:
-   ```javascript
-   export default defineConfig({
-     plugins: [react()],
-     base: '/TU_REPOSITORIO/' // Ej: '/portfolio-diego/'
-   })
-   ```
-3. En `package.json` añade los scripts:
+## 📂 Estructura del Código
+
+La arquitectura del proyecto está pensada para ser escalable y fácil de mantener:
+
+```text
+src/
+├── assets/        # Imágenes y recursos estáticos
+├── components/    # Componentes reutilizables (Hero, About, Projects, Contact, etc.)
+├── data/          # Datos estructurados (ej. projects.js con la lista de proyectos)
+├── index.css      # Configuraciones y utilidades globales de Tailwind
+├── App.jsx        # Contenedor principal de la aplicación
+└── main.jsx       # Punto de entrada de React
+```
+
+---
+
+## 🌐 Guía de Despliegue
+
+### Despliegue en Vercel (Recomendado)
+1. Inicia sesión en [Vercel](https://vercel.com/).
+2. Importa el repositorio directamente desde tu cuenta de GitHub.
+3. Asegúrate de que el **Framework Preset** seleccionado sea **Vite**.
+4. Haz clic en **Deploy** y en segundos estará en vivo.
+
+### Despliegue en GitHub Pages
+1. Instala la herramienta necesaria: `npm install gh-pages --save-dev`
+2. Configura tu `vite.config.js` añadiendo `base: '/PORTAFOLIO/'`
+3. Agrega los scripts en tu `package.json`:
    ```json
    "scripts": {
      "predeploy": "npm run build",
      "deploy": "gh-pages -d dist"
    }
    ```
-4. Ejecuta `npm run deploy`.
+4. Ejecuta `npm run deploy` y tu portafolio estará disponible en tu dominio de GitHub Pages.
 
-## 📸 Estructura del Proyecto
+---
 
-- `src/components/` - Componentes de la UI (Hero, About, Projects, etc.)
-- `src/data/` - Datos estáticos (lista de proyectos)
-- `src/index.css` - Estilos globales de Tailwind
-- `src/App.jsx` - Componente principal y maquetación
+<div align="center">
+  <i>Construido con dedicación por Diego Saravia Duran.</i>
+</div>
